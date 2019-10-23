@@ -160,8 +160,7 @@ export default {
             };
             let formData = new FormData();
             formData.append('file', fileData);
-            // this.file = formData;
-            this.file = this.$refs.inputer.files[0]
+            this.file = formData;
         },
 
         //选择类型
